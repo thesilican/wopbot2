@@ -1,0 +1,49 @@
+{
+    "img": {
+        "url_base": "https://mrsiliconguy.github.io/WopBot2/assets2/",
+        "pet": {
+            "common": [
+                {
+                    "alive": "pet-common-0-alive.gif",
+                    "dead": "pet-common-0-dead.png"
+                },
+                {
+                    "alive": "pet-common-1-alive.gif",
+                    "dead": "pet-common-1-dead.png"
+                },
+                {
+                    "alive": "pet-common-2-alive.gif",
+                    "dead": "pet-common-2-dead.png"
+                }
+            ],
+            "uncommon": [
+                {
+                    "alive": "pet-uncommon-0-alive.gif",
+                    "dead": "pet-uncommon-0-dead.png"
+                },
+                {
+                    "alive": "pet-uncommon-1-alive.gif",
+                    "dead": "pet-uncommon-1-dead.gif"
+                }
+            ],
+            "rare": [
+                {
+                    "alive": "pet-rare-0-alive.png",
+                    "dead": "pet-rare-0-dead.png"
+                },
+                {
+                    "alive": "pet-rare-1-alive.gif",
+                    "dead": "pet-rare-1-dead.png"
+                }
+            ]
+        },
+        "death": [
+            "graveyard-0.png",
+            "graveyard-1.png",
+            "graveyard-2.png"
+        ],
+        "races": {
+            "trophy": "trophy.png"
+        }
+    }
+}

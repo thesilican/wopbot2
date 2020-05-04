@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>WopBot 2</title>
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css"
+        />
+        <style>
+            .markdown-body {
+                margin: 50px 10vw;
+            }
+        </style>
+    </head>
+    <body>
+        <article id="markdown-body" class="markdown-body"></article>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"></script>
+        <script>
+            window.onload = function () {
+                const f = new XMLHttpRequest();
+                f.open("GET", "./index.md", true);
+                f.onreadystatechange = function () {
+                    if (f.readyState === 4 && f.status === 200) {
+                        document.getElementById(
+                            "markdown-body"
+                        ).innerHTML = new showdown.Converter().makeHtml(
+                            f.responseText
+                        );
+                    }
+                };
+                f.send();
+            };
+        </script>
+    </body>
+</html>

@@ -1,0 +1,221 @@
+{
+    "items": [
+        {
+            "id": "basic-pet-capsule",
+            "name": "Basic Pet Capsule",
+            "aliases": [
+                "Basic Capsule",
+                "Pet Capsule"
+            ],
+            "category": "capsules",
+            "subcategory": "pet-capsule",
+            "icon": "💊",
+            "price": 200,
+            "quantity": 1,
+            "description": "Contains a pet, with normal chances of uncommon/rare pets",
+            "postPurchaseMessage": "Use `p.open` to open your capsule and see your new pet."
+        },
+        {
+            "id": "advanced-pet-capsule",
+            "name": "Advanced Pet Capsule",
+            "aliases": [
+                "Advanced Capsule"
+            ],
+            "category": "capsules",
+            "subcategory": "pet-capsule",
+            "icon": "🌟",
+            "price": 500,
+            "quantity": 1,
+            "description": "Doubles the chance of getting an uncommon or rare pet",
+            "postPurchaseMessage": "Use `p.open` to open your capsule and see your new pet."
+        },
+        {
+            "id": "magical-pet-capsule",
+            "name": "Magical Pet Capsule",
+            "aliases": [
+                "Magical Capsule"
+            ],
+            "category": "capsules",
+            "subcategory": "pet-capsule",
+            "icon": "🎆",
+            "price": 1000,
+            "quantity": 1,
+            "description": "Guarentees at least an uncommon pet! 50% chance of getting a rare pet",
+            "postPurchaseMessage": "Use `p.open` to open your capsule and see your new pet."
+        },
+        {
+            "id": "cherry",
+            "name": "Cherry",
+            "category": "food",
+            "subcategory": "healthy-food",
+            "icon": "🍒",
+            "price": 50,
+            "quantity": 5,
+            "description": "Bright red cherry bunches, hand picked. A great healthy snack!"
+        },
+        {
+            "id": "grapes",
+            "name": "Grapes",
+            "category": "food",
+            "subcategory": "healthy-food",
+            "icon": "🍇",
+            "price": 50,
+            "quantity": 5,
+            "description": "Bunches of fresh purple grapes, handpicked by local farmers"
+        },
+        {
+            "id": "corn",
+            "name": "Corn",
+            "category": "food",
+            "subcategory": "healthy-food",
+            "icon": "🌽",
+            "price": 50,
+            "quantity": 5,
+            "description": "A juicy ear harvested from local farms"
+        },
+        {
+            "id": "broccoli",
+            "name": "Broccoli",
+            "category": "food",
+            "subcategory": "healthy-food",
+            "icon": "🥦",
+            "price": 50,
+            "quantity": 5,
+            "description": "Nothing healthier than these puffy green bunches"
+        },
+        {
+            "id": "pizza",
+            "name": "Pizza",
+            "category": "food",
+            "subcategory": "unhealthy-food",
+            "icon": "🍕",
+            "price": 50,
+            "quantity": 5,
+            "description": "A cheesy, flame grilled slice from the nearest local pizzeria"
+        },
+        {
+            "id": "burger",
+            "name": "Burger",
+            "category": "food",
+            "subcategory": "unhealthy-food",
+            "icon": "🍔",
+            "price": 50,
+            "quantity": 5,
+            "description": "The famous Quarter Pounder® with cheese"
+        },
+        {
+            "id": "pretzel",
+            "name": "Pretzel",
+            "category": "food",
+            "subcategory": "unhealthy-food",
+            "icon": "🥨",
+            "price": 50,
+            "quantity": 5,
+            "description": "A tasty, salty snack for your pet"
+        },
+        {
+            "id": "burrito",
+            "name": "Burrito",
+            "category": "food",
+            "subcategory": "unhealthy-food",
+            "icon": "🌯",
+            "price": 50,
+            "quantity": 5,
+            "description": "Este es un burrito"
+        },
+        {
+            "id": "beer",
+            "name": "Beer",
+            "category": "special-food",
+            "subcategory": "special-food",
+            "icon": "🍺",
+            "price": 50,
+            "quantity": 1,
+            "description": "Refills your pet's energy to the max! With potential side-effects"
+        },
+        {
+            "id": "noodles",
+            "name": "Noodles",
+            "aliases": [
+                "ramen"
+            ],
+            "category": "special-food",
+            "subcategory": "special-food",
+            "icon": "🍜",
+            "price": 100,
+            "quantity": 1,
+            "description": "A steaming hot bowl of ramen. Greatly boosts pet's healing for a day"
+        },
+        {
+            "id": "fortune-cookie",
+            "name": "Fortune Cookie",
+            "aliases": [
+                "Fortune",
+                "Cookie"
+            ],
+            "category": "special-food",
+            "subcategory": "special-food",
+            "icon": "🥠",
+            "price": 50,
+            "quantity": 1,
+            "description": "Found in the trash can from a local chinese restaurant. Will randomly increase or decrease a pet stat by 10"
+        },
+        {
+            "id": "honey",
+            "name": "Honey",
+            "category": "special-food",
+            "subcategory": "special-food",
+            "icon": "🍯",
+            "price": 200,
+            "quantity": 1,
+            "description": "The incredibily sweet taste of honey increases the pet's training effectiveness for a day"
+        },
+        {
+            "id": "coffee",
+            "name": "Coffee",
+            "category": "special-food",
+            "subcategory": "special-food",
+            "icon": "☕",
+            "price": 200,
+            "quantity": 1,
+            "description": "Caffeine temporarily increases pet strength, stamina, and speed."
+        },
+        {
+            "id": "super-kale",
+            "name": "Super Kale",
+            "aliases": [
+                "Kale"
+            ],
+            "category": "special-food",
+            "subcategory": "special-food",
+            "icon": "🥬",
+            "price": 500,
+            "quantity": 1,
+            "description": "Keeps your pet fully fed and happy for 3 days!"
+        }
+    ],
+    "categories": [
+        {
+            "id": "food",
+            "name": "Food",
+            "subcategories": [
+                "healthy-food",
+                "unhealthy-food"
+            ]
+        },
+        {
+            "id": "special-food",
+            "name": "Special Foods",
+            "subcategories": [
+                "special-food"
+            ]
+        },
+        {
+            "id": "capsules",
+            "name": "Pet Capsules",
+            "subcategories": [
+                "pet-capsule"
+            ]
+        }
+    ]
+}

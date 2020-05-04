@@ -1,0 +1,8 @@
+# Stuff
+node_modules/
+dist/
+!.vscode
+
+# Files
+config.json
+database.json

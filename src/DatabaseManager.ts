@@ -11,7 +11,7 @@ type DatabaseLoadError =
 export default class DatabaseManager {
     // 30 min
     static readonly AUTOSAVE_INTERVAL = 30 * 60 * 1000;
-    static readonly DATABASE_PATH = "./";
+    static readonly DATABASE_PATH = "./config";
     static readonly DATABASE_FILENAME = "database.json";
     private static autoSaveTimer: NodeJS.Timeout | null = null;
 

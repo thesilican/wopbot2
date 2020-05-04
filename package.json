@@ -4,8 +4,7 @@
   "description": "WopBot 2 rewrite",
   "main": "dist/index.js",
   "scripts": {
-    "start": "npm run update && npm run build && node dist/index.js",
-    "update": "git pull && npm update",
+    "start": "node dist/index.js",
     "build": "npx tsc",
     "build-doc": "markdownb docs/index.md"
   },

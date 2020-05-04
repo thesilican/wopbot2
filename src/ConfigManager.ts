@@ -50,7 +50,7 @@ type ConfigLoadError =
     | "error reading file";
 
 export default class ConfigManager {
-    static readonly CONFIG_FOLDER = "./";
+    static readonly CONFIG_FOLDER = "./config";
     static readonly CONFIG_FILENAME = "config.json";
 
     static verify(obj: any): obj is Config {
